@@ -1,0 +1,96 @@
+[0.537s] Invoking command in '/home/rorremous/Development/ROS/manipulation/arm/src': PYTHONPATH=/home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/prefix_override:/home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_doosan_pkg build --build-base /home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/build install --record /home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/install.log --install-scripts $base/lib/my_doosan_pkg --single-version-externally-managed
+[0.649s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.649s]   warnings.warn(
+[0.653s] running egg_info
+[0.653s] creating ../build/my_doosan_pkg/my_doosan_pkg.egg-info
+[0.653s] writing ../build/my_doosan_pkg/my_doosan_pkg.egg-info/PKG-INFO
+[0.653s] writing dependency_links to ../build/my_doosan_pkg/my_doosan_pkg.egg-info/dependency_links.txt
+[0.654s] writing entry points to ../build/my_doosan_pkg/my_doosan_pkg.egg-info/entry_points.txt
+[0.654s] writing requirements to ../build/my_doosan_pkg/my_doosan_pkg.egg-info/requires.txt
+[0.654s] writing top-level names to ../build/my_doosan_pkg/my_doosan_pkg.egg-info/top_level.txt
+[0.654s] writing manifest file '../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'
+[0.655s] reading manifest file '../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'
+[0.655s] writing manifest file '../build/my_doosan_pkg/my_doosan_pkg.egg-info/SOURCES.txt'
+[0.656s] running build
+[0.656s] running build_py
+[0.656s] creating /home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/build
+[0.656s] creating /home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/build/lib
+[0.656s] creating /home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/build/lib/my_doosan_pkg
+[0.656s] copying my_doosan_pkg/joint_points_act_service.py -> /home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/build/lib/my_doosan_pkg
+[0.656s] copying my_doosan_pkg/joint_points_topic.py -> /home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/build/lib/my_doosan_pkg
+[0.656s] copying my_doosan_pkg/__init__.py -> /home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/build/lib/my_doosan_pkg
+[0.656s] running install
+[0.656s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.656s]   warnings.warn(
+[0.656s] running install_lib
+[0.657s] creating /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg
+[0.657s] copying /home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/build/lib/my_doosan_pkg/joint_points_act_service.py -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg
+[0.657s] copying /home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/build/lib/my_doosan_pkg/joint_points_topic.py -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg
+[0.657s] copying /home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/build/lib/my_doosan_pkg/__init__.py -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg
+[0.657s] byte-compiling /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg/joint_points_act_service.py to joint_points_act_service.cpython-310.pyc
+[0.658s] byte-compiling /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg/joint_points_topic.py to joint_points_topic.cpython-310.pyc
+[0.658s] byte-compiling /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg/__init__.py to __init__.cpython-310.pyc
+[0.658s] running install_data
+[0.658s] creating /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/ament_index
+[0.658s] creating /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/ament_index/resource_index
+[0.658s] creating /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/ament_index/resource_index/packages
+[0.658s] copying resource/my_doosan_pkg -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/ament_index/resource_index/packages
+[0.658s] copying package.xml -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg
+[0.659s] creating /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/launch
+[0.659s] copying launch/my_doosan_gazebo_controller.launch.py -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/launch
+[0.659s] copying launch/my_doosan_rviz.launch.py -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/launch
+[0.659s] copying launch/my_doosan_controller.launch.py -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/launch
+[0.659s] copying launch/my_doosan_gazebo.launch.py -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/launch
+[0.659s] creating /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/rviz
+[0.659s] copying rviz/view_config.rviz -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/rviz
+[0.659s] creating /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/config
+[0.659s] copying config/simple_controller.yaml -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/config
+[0.659s] creating /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/worlds
+[0.659s] copying worlds/my_empty_world.world -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/worlds
+[0.660s] creating /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description
+[0.660s] creating /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/urdf
+[0.660s] copying description/urdf/a0912.blue.urdf -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/urdf
+[0.660s] copying description/urdf/m1013.white.urdf -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/urdf
+[0.660s] creating /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[0.660s] copying description/xacro/macro.transmission.xacro -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[0.660s] copying description/xacro/a0912.urdf.xacro -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[0.660s] copying description/xacro/m1013.urdf.xacro -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[0.660s] copying description/xacro/macro.gazebo_config_control.xacro -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[0.660s] copying description/xacro/macro.a0912.blue.xacro -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[0.660s] copying description/xacro/macro.m1013.white.xacro -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[0.660s] copying description/xacro/macro.bumper_config.xacro -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[0.660s] copying description/xacro/macro.internal_config.xacro -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/xacro
+[0.660s] creating /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes
+[0.660s] creating /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.661s] copying description/meshes/a0912_blue/A0912_3_0.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.661s] copying description/meshes/a0912_blue/A0912_2_0.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.661s] copying description/meshes/a0912_blue/A0912_1_2.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.661s] copying description/meshes/a0912_blue/A0912_6_0.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.661s] copying description/meshes/a0912_blue/A0912_4_0.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.662s] copying description/meshes/a0912_blue/A0912_3_1.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.662s] copying description/meshes/a0912_blue/A0912_4_1.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.663s] copying description/meshes/a0912_blue/A0912_0_0.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.663s] copying description/meshes/a0912_blue/A0912_5_1.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.664s] copying description/meshes/a0912_blue/A0912_1_0.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.664s] copying description/meshes/a0912_blue/A0912_5_0.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.664s] copying description/meshes/a0912_blue/A0912_2_2.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.665s] copying description/meshes/a0912_blue/A0912_2_1.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.666s] copying description/meshes/a0912_blue/A0912_1_1.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/a0912_blue
+[0.667s] creating /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[0.667s] copying description/meshes/m1013_white/MF1013_0_0.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[0.668s] copying description/meshes/m1013_white/MF1013_1_0.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[0.668s] copying description/meshes/m1013_white/MF1013_2_0.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[0.669s] copying description/meshes/m1013_white/MF1013_3_0.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[0.670s] copying description/meshes/m1013_white/MF1013_2_2.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[0.670s] copying description/meshes/m1013_white/MF1013_4_0.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[0.671s] copying description/meshes/m1013_white/MF1013_5_0.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[0.671s] copying description/meshes/m1013_white/MF1013_2_1.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[0.673s] copying description/meshes/m1013_white/MF1013_4_1.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[0.673s] copying description/meshes/m1013_white/MF1013_6_0.dae -> /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/share/my_doosan_pkg/description/meshes/m1013_white
+[0.673s] running install_egg_info
+[0.674s] Copying ../build/my_doosan_pkg/my_doosan_pkg.egg-info to /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/lib/python3.10/site-packages/my_doosan_pkg-0.0.0-py3.10.egg-info
+[0.675s] running install_scripts
+[0.686s] Installing trajectory_points_act_server script to /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/lib/my_doosan_pkg
+[0.686s] Installing trajectory_points_topic script to /home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/lib/my_doosan_pkg
+[0.686s] writing list of installed files to '/home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/install.log'
+[0.699s] Invoked command in '/home/rorremous/Development/ROS/manipulation/arm/src' returned '0': PYTHONPATH=/home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/prefix_override:/home/rorremous/Development/ROS/manipulation/arm/install/my_doosan_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_doosan_pkg build --build-base /home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/build install --record /home/rorremous/Development/ROS/manipulation/arm/build/my_doosan_pkg/install.log --install-scripts $base/lib/my_doosan_pkg --single-version-externally-managed
